@@ -1,0 +1,27 @@
+{
+  "name": "better-concat",
+  "version": "1.0.0",
+  "description": "concatenate multiple files",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biati-digital/better-concat"
+  },
+  "keywords": [
+    "concatenate",
+    "merge",
+    "files",
+    "folders",
+    "concat",
+    "join"
+  ],
+  "author": "biati digital",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/biati-digital/better-concat/issues"
+  },
+  "homepage": "https://github.com/biati-digital/better-concat#readme",
+}
