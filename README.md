@@ -2,6 +2,14 @@
 
 Concatenate multiple files and folders
 
+## Install
+```
+$ npm install better-concat
+```
+```
+import concat from 'better-concat'
+```
+
 ## Usage
 
 ### The most simple use
