@@ -82,6 +82,17 @@ await concat({
 })
 ```
 
+### Prepend and append to the output string
+You can prepend or append anything to the merged string
+```javascript
+await concat({
+    files: ['file1.js', 'folder1', 'folder2', 'file2.js', ...],
+    prepend: '(function () {\n"use strict";\n\n',
+    append: '})();',
+    out: 'out.js',
+})
+```
+
 ### Return the merged string
 Instead of saving the merged string in a file you can save it in a variable and do whatever you want
 ```javascript
@@ -100,6 +111,8 @@ const concateStr = await concat({
     invisibles: 'include invisible files if passed folders in files list (false by default)',
     outStr: 'function to manipulate the string before it\'s saved or returned',
     fileStr: 'function to manipulate the string of individual files',
+    prepend: 'prepend string to the merged file',
+    append: 'append string to the merged file',
     delimiter: 'delimiter used to merge the files, default is \n leave empty to remove all line breaks'
 })
 ```
